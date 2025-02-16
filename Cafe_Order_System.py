@@ -24,11 +24,10 @@ while True:
        item2 = input("What would you like to add? ")
        if item2 in menu:
            Totalorder += menu[item2]
-           print("Your total is: ", Totalorder)
        else:
            print("Sorry, we don't have that item\nEnter from the menu")
     elif option == "no":
-           print("Your total is: ", Totalorder)
+           print("Your total Bill is: ", Totalorder)
            print("Thanks for ordering!")
            break#
 
